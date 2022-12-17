@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+main {
+    width: 90%;
+}
+
+.header {
+    width: 100;
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: top;
+    color: #EB5757;
+    font-size: 14px;
+}
+
+.serchForm {
+    width: 297px;
+    height: 55px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.serchForm span {
+    color: rgb(167, 149, 149);
+}
+
+.serchList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    height: 460px;
+    width: 100%;
+    transition: 1s;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.listSerch {
+    width: 90%;
+    justify-content: space-between;
+}
+
+.listSerch label {
+    width: 395px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(233, 10, 10);
+}
+
+.listSerch input {
+    border: none;
+    outline: none;
+    color: rgb(45, 43, 43);
+}
+
+.listBtn {
+    height: 50px;
+    width: 120px;
+    border-radius: 16px;
+    background-color: darkred;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.displayNone {
+    display: none;
+    transition: 2s;
+}
+
+
+/* section 1 */
+
+.marginTop {
+    margin-top: 460px;
+}
+
+.boxWraper {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.styleAdd {
+    height: 100px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.addStyle {
+    width: 60px;
+    height: 50px;
+    background-color: #EB5757;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.addBox {
+    /* height: 300px;
+    width: 200px; */
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    display: flex;
+}
+
+.addForm {
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 700px;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(239, 132, 93);
+    border-radius: 16px;
+}
+
+.addForm label {
+    width: 350px;
+}
+
+.addForm input {
+    width: 350px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+#sellHot {
+    width: 20px;
+    height: 20px;
+}
+
+.smollBoxImg {
+    width: 395px;
+    height: 300px;
+}
+
+.pointNumber {
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.roomHistori {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hotSell {
+    color: red;
+    border: 1px solid black;
+}
+
+.housAdress {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}

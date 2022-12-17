@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>windbnb</title>
+</head>
+
+<body>
+    <main class="">
+        <header class="header displayFlex">
+            <h1 class="logo displayFlex">
+                <img width="21" height="18" src="img/logo.webp" alt="home logo"> windbnb
+            </h1>
+            <nav>
+                <button onclick="serchFimrFunc()" class="serchForm displayFlex">
+                  <p>Helsinki, Finland</p>
+                  <span>add guests</span>
+                  <img width="17" height="17" src="img/serchIcon.png" alt="serch icon">  
+                </button>
+            </nav>
+            <div class="serchList displayFlex displayNone">
+                <div class="listSerch displayFlex">
+                    <label onclick="serchFimrFunc()" for="">
+                        Location
+                        <input type="text" name="location" id="location" placeholder="location">
+                    </label>
+                    <label onclick="serchFimrFunc()" for="">
+                        Guests
+                        <input type="text" name="guests" id="guests" placeholder="Add guests">
+                    </label>
+
+                    <button onclick="serchFimrFunc()" class="listBtn displayFlex">
+                        <img width="15" src="img/serchIcon.png" alt="serchicon">
+                        search
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="section1">
+            <div>
+                <div class="styleAdd displayFlex">
+                    <h2>Stays in Finland</h2>
+
+                    <button onclick="displayAddForm()" class="addStyle">Add+</button>
+
+                    <div class="addBox">
+                        <form class="addForm displayFlex displayNone" action="">
+                            <h2 class="formName">Add you house</h2>
+                            <label for="">
+                                    Please enter house image !
+                                    <input type="file" name="image" id="image">
+                                </label>
+
+                            <label for="">
+                                    The price
+                                    <input type="number" name="price" id="price">
+                                </label>
+                            <label for="">
+                                    Short description
+                                    <input type="text" name="description" id="description">
+                                </label>
+                            <label for="">
+                                    Rate
+                                    <input type="number" name="rate" id="rate">
+                                </label>
+                            <label for="">
+                                    Address
+                                    <input type="text" name="map" id="map">
+                                </label>
+                            <label for="">
+                                    Mobile number
+                                    <input type="tel" name="mobile" id="mobile">
+                                </label>
+                            <label for="">
+                                    Email:
+                                    <input type="email" name="email" id="email">
+                                </label>
+                            <label for="">
+                                    Have sell ?
+                                    <input type="checkbox" name="sell" id="sellHot">
+                                </label>
+                            <button> Add now</button>
+                        </form>
+                    </div>
+
+                </div>
+                <div class="boxWraper displayFlex">
+
+                    <div class="smollBox">
+                        <img class="smollBoxImg" src="img/room2.jpg" alt="hose room">
+                        <div class="roomHistori">
+                            <p class="hotSell">Hot sell</p>
+                            <p class="sellMany">50$</p>
+                            <span>Entire apartment.2 beds</span>
+                            <div class="pointNumber">
+                                <img width="15" src="img/star.png" alt="room histori">
+                                <p class="pointNum">4.40</p>
+                            </div>
+                        </div>
+                        <div class="housAdress">
+                            <a target="_blank" href="https://www.google.com/maps/search/rionheis+10+maq/@41.7365698,44.8053882,15z/data=!3m1!4b1" class="hoseMap">
+                                See map
+                            </a>
+                            <a href="tel:59908533">Call mobile</a>
+                            <a target="_blank" href="mailto:goga.banrabishvili96@gmail.com?subject=hello i need home !&body=hello i see you home and i need it">mesige email</a>
+                        </div>
+                    </div>
+                    <div class="smollBox">
+                        <img class="smollBoxImg" src="img/room.jpg" alt="hose room">
+                        <div class="roomHistori displayFlex">
+                            <p class="hotSell">Hot sell</p>
+                            <p class="sellMany">50$</p>
+                            <span>Entire apartment.2 beds</span>
+                            <div class="pointNumber displayFlex">
+                                <img width="15" src="img/star.png" alt="room histori">
+                                <p class="pointNum">4.40</p>
+                            </div>
+                        </div>
+                        <div class="housAdress displayFlex">
+                            <a target="_blank" href="https://www.google.com/maps/search/rionheis+10+maq/@41.7365698,44.8053882,15z/data=!3m1!4b1" class="hoseMap">
+                                See map
+                            </a>
+                            <a href="tel:59908533">Call mobile</a>
+                            <a target="_blank" href="mailto:goga.banrabishvili96@gmail.com?subject=hello i need home !&body=hello i see you home and i need it">mesige email</a>
+                        </div>
+                    </div>
+                    <div class="smollBox">
+                        <img class="smollBoxImg" src="img/room.jpg" alt="hose room">
+                        <div class="roomHistori displayFlex">
+                            <p class="hotSell">Hot sell</p>
+                            <p class="sellMany">50$</p>
+                            <span>Entire apartment.2 beds</span>
+                            <div class="pointNumber displayFlex">
+                                <img width="15" src="img/star.png" alt="room histori">
+                                <p class="pointNum">4.40</p>
+                            </div>
+                        </div>
+                        <div class="housAdress displayFlex">
+                            <a target="_blank" href="https://www.google.com/maps/search/rionheis+10+maq/@41.7365698,44.8053882,15z/data=!3m1!4b1" class="hoseMap">
+                                See map
+                            </a>
+                            <a href="tel:59908533">Call mobile</a>
+                            <a target="_blank" href="mailto:goga.banrabishvili96@gmail.com?subject=hello i need home !&body=hello i see you home and i need it">mesige email</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
